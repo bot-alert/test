@@ -1,8 +1,8 @@
 spring:
  profiles:
    include: 
-     - "sadjkhfas"
-     - "asdfa"
+     - "local"
+     - "localsmtp"
 
 server:
  port: 8081
