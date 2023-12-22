@@ -1,0 +1,29 @@
+app:
+  services-smtp-mapping:
+    - name: test
+      smtp-info:
+        - password: "uage lztd oubu obze"
+          username: ashish10dev@gmail.com
+          host: smtp.gmail.com
+          port: 587
+          auth: true
+          starttls-enabled: true
+          daily-limit: 50_000
+
+    - name: hospital
+      smtp-info:
+        - username: hospitalsmtp1
+          password: random
+          host: smtp.gmail.com
+          port: 25
+          auth: true
+          starttls-enabled: true
+          daily-limit: 10000
+
+        - username: hospitalsmtp2
+          password: random
+          host: smtp.aws.com
+          port: 25
+          auth: true
+          starttls-enabled: true
+          daily-limit: 40000

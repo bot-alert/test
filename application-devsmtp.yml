@@ -1,0 +1,12 @@
+
+app:
+  services-smtp-mapping:
+    - name: aws
+      smtp-info:
+        - password: "uage lztd oubu obze"
+          username: ashish10dev@gmail.com
+          host: smtp.gmail.com
+          port: 587
+          auth: true
+          starttls-enabled: true
+          daily-limit: 50_000
