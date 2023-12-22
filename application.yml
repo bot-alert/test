@@ -1,12 +1,12 @@
-#spring:
-#  profiles:
-#    active: "local"
-#    include: "localsmtp"
-#
-#server:
-#  port: 8081
-
 spring:
-  cloud:
-    config:
-      uri: http://localhost:8082
+ profiles:
+   active: "local"
+   include: "localsmtp"
+
+server:
+ port: 8081
+
+# spring:
+#   cloud:
+#     config:
+#       uri: http://localhost:8082
