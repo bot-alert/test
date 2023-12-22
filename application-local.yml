@@ -17,6 +17,6 @@ spring:
       leakDetectionThreshold: 300000
   data:
     redis:
-      host: email-redis
+      url: email-redis
 
 
