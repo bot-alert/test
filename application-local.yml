@@ -1,14 +1,4 @@
 spring:
-  docker:
-    compose:
-      enabled: true
-      file: compose.yaml
-  kafka:
-    bootstrap-servers:
-      - localhost:9092
-    consumer:
-      auto-offset-reset: latest
-      group-id: email_consumer
   jpa:
     hibernate:
       ddl-auto: update
