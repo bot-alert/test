@@ -1,8 +1,8 @@
 spring:
  profiles:
    include: 
-     - "localsmtp"
-     - "local"
+     - "dsdev"
+     - "dedav"
 
 server:
  port: 8081
