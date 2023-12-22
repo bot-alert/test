@@ -15,7 +15,7 @@ spring:
     open-in-view: false
 
   datasource:
-    url: jdbc:postgresql://localhost:5432/email_microservice
+    url: jdbc:postgresql://email-server-database:5432/email_microservice
     username: postgres
     password: Ashish123
     driver-class-name: org.postgresql.Driver
