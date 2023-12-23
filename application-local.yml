@@ -15,8 +15,8 @@ spring:
       idleTimeout: 120000
       connectionTimeout: 300000
       leakDetectionThreshold: 300000
-  data:
-    redis:
-      host: email-redis
+  # data:
+  #   redis:
+  #     host: email-redis
 
 
