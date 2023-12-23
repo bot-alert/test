@@ -17,7 +17,7 @@ spring:
       leakDetectionThreshold: 300000
   data:
     redis:
-      host: 192.168.160.2
+      host: email-redis
       port: 6379
 
 
