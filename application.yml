@@ -5,4 +5,4 @@ spring:
      - "localsmtp"
 
 server:
- port: 8081
+ port: 8099
