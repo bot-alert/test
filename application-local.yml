@@ -18,6 +18,6 @@ spring:
   data:
     redis:
       host: email_redis
-      host: 172.20.0.5
+      # host: 172.20.0.5
       port: 6379
 
